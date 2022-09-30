@@ -1,0 +1,132 @@
+nav {
+  width: 100%;
+}
+
+nav .navTop {
+  width: 100%;
+  background-color: rgba(93, 195, 24, 0.8);
+  padding: 14px 0px;
+  position: relative;
+}
+
+nav .navTop .flag {
+  position: relative;
+}
+
+nav .navTop .flag .titleLang {
+  display: flex;
+  align-items: center;
+}
+
+nav .navTop .flag .titleLang img {
+  width: 28px !important;
+  height: 16px !important;
+}
+
+nav .navTop .flag .titleLang svg {
+  margin-left: 10px;
+  fill: white;
+}
+
+nav .navTop .flag ul {
+  position: absolute;
+  bottom: -100px;
+  left: -50%;
+  border: 2px solid rgb(206, 206, 206);
+  padding: 0px 50px;
+  background-color: rgba(93, 195, 24, 0.8);
+  width: 120px;
+}
+
+nav .navTop .flag ul li {
+  margin: 10px 0px;
+  width: 28px !important;
+  height: 16px !important;
+}
+
+nav .navTop .flag ul li img {
+  width: 28px !important;
+  height: 16px !important;
+}
+
+nav .navTop .icons {
+  display: flex;
+}
+
+nav .navTop .icons svg {
+  width: 20px;
+  height: 20px;
+  margin-left: 40px;
+}
+
+nav .navTop .icons svg path {
+  fill: white;
+}
+
+nav .navMenu {
+  width: 100%;
+  margin-top: 20px;
+}
+
+nav .navMenu .search {
+  width: 100%;
+  position: relative;
+}
+
+nav .navMenu .search input {
+  width: 100%;
+  padding: 13px 0px;
+  padding-left: 60px;
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(57, 157, 24, 1);
+}
+
+nav .navMenu .search input:focus {
+  outline: none;
+}
+
+nav .navMenu .search input::placeholder {
+  color: rgba(57, 157, 24, 1);
+}
+
+nav .navMenu .search button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  left: 20px;
+  border: none;
+  background: transparent;
+  color: rgba(58, 157, 24, 1);
+}
+
+nav .navMenu .search button svg {
+  width: 30px;
+  height: 25px;
+}
+
+nav .navMenu .icons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav .navMenu .icons svg {
+  margin-left: 45px;
+}
+
+nav .navMenu .icons button {
+  border: none;
+  margin-left: 45px;
+  border-radius: 20px;
+  padding: 13px 27px;
+  background-color: rgba(125, 207, 71, 1);
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
